@@ -1,5 +1,3 @@
-import '../styles/features.css'
-
 function FeaturesSection() {
   const features = [
     {

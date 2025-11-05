@@ -1,5 +1,3 @@
-import '../styles/solution.css'
-
 function SolutionSection({ onVoteClick }) {
   const features = [
     'Acesso instantâneo via navegador',

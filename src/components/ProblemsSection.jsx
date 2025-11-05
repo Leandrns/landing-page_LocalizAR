@@ -1,5 +1,3 @@
-import '../styles/problems.css'
-
 function ProblemsSection() {
   const problems = [
     {

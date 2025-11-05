@@ -1,5 +1,3 @@
-import '../styles/differentials.css'
-
 function DifferentialsSection() {
   const differentials = [
     {

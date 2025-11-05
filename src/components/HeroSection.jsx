@@ -1,5 +1,3 @@
-import '../styles/hero.css'
-
 function HeroSection({ onVoteClick }) {
   return (
     <section className="hero-section">

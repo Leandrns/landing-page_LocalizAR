@@ -1,5 +1,3 @@
-import '../styles/final.css'
-
 function FinalCTASection({ onVoteClick }) {
   return (
     <section className="final-cta-section" data-animate>
