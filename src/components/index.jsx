@@ -7,6 +7,7 @@ import FeaturesSection from './FeaturesSection'
 import DifferentialsSection from './DifferentialsSection'
 import FinalCTASection from './FinalCTASection'
 import Footer from './Footer'
+import Navbar from './Navbar'
 
 function LocalizarLanding() {
   const [isVisible, setIsVisible] = useState({});
@@ -37,6 +38,7 @@ function LocalizarLanding() {
 
   return (
     <div className="landing-container">
+      <Navbar onVoteClick={scrollToVote} />
       <HeroSection onVoteClick={scrollToVote} />
       <ProblemsSection />
       <SolutionSection onVoteClick={scrollToVote} />
