@@ -19,7 +19,7 @@ function SolutionSection({ onVoteClick }) {
             </h2>
             
             <p className="solution-description">
-              LocalizAR usa tecnologia WebXR para criar uma experiência de navegação imersiva e intuitiva. 
+              LocalizAR utiliza a tecnologia WebXR para criar uma experiência de navegação imersiva e intuitiva. 
               Sem apps para baixar, sem configurações complexas - apenas aponte, escaneie e navegue.
             </p>
             
