@@ -438,9 +438,11 @@
 }
 
 .solution-visual {
-    position: relative;
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;     /* centraliza verticalmente */
+  width: 100%;
 }
-
 .video-container {
   width: 100%;
   max-width: 360px; /* ideal para vídeo vertical */
@@ -457,6 +459,7 @@
   object-fit: cover;
   display: block;
   border-radius: 30px;
+  align-items: center;
 }
 
 /* Responsividade para telas menores */
