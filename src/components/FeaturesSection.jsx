@@ -26,9 +26,9 @@ function FeaturesSection() {
       description: 'Renderização 3D otimizada com Three.js para experiência fluida.'
     },
     {
-      icon: 'fa-chart-line',
-      title: 'Analytics em Tempo Real',
-      description: 'Dashboard para organizadores acompanharem o fluxo de visitantes.'
+      icon: 'fa-solid fa-database',
+      title: 'Banco de dados',
+      description: 'Armazenamento seguro de dados dos usuários e interações.'
     }
   ];
 

@@ -49,8 +49,8 @@ function HeroSection({ onVoteClick }) {
           </div>
           <div className="stat-divider"></div>
           <div className="stat-item">
-            <div className="stat-number">0s</div>
-            <div className="stat-label">Tempo de Setup</div>
+            <div className="stat-number">3D</div>
+            <div className="stat-label">Objetos Tridimensionais</div>
           </div>
         </div>
       </div>
