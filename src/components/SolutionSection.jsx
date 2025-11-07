@@ -42,7 +42,7 @@ function SolutionSection({ onVoteClick }) {
           <div className="solution-visual">
             <div className="video-container">
               <video
-                src="public/videoar.mp4" 
+                src="public/videos/videoar.mp4" 
                 autoPlay
                 loop
                 muted
