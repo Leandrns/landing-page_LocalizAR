@@ -41,11 +41,7 @@ function SolutionSection({ onVoteClick }) {
 
           <div className="solution-visual">
             <div className="gif-container">
-              <img
-                src="public/videos/videoar.gif"
-                alt="Demonstração AR"
-                className="demo-gif"
-              />
+              <img src="/videos/videoar.gif" alt="Demonstração AR" className="demo-gif" />
             </div>
           </div>
         </div>
