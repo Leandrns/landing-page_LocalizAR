@@ -38,11 +38,11 @@ function SolutionSection({ onVoteClick }) {
             </button>
           </div>
           
-          {/* Vídeo substituindo a animação */}
+
           <div className="solution-visual">
             <div className="video-container">
               <video
-                src="src/assets/videoar.mp4" // coloque o caminho correto
+                src="public/videoar.mp4" 
                 autoPlay
                 loop
                 muted
