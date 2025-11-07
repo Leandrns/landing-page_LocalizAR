@@ -17,12 +17,12 @@ function SolutionSection({ onVoteClick }) {
               <br />
               <span className="gradient-text">Sem Complicação</span>
             </h2>
-            
+
             <p className="solution-description">
-              LocalizAR utiliza a tecnologia WebXR para criar uma experiência de navegação imersiva e intuitiva. 
+              LocalizAR utiliza a tecnologia WebXR para criar uma experiência de navegação imersiva e intuitiva.
               Sem apps para baixar, sem configurações complexas - apenas aponte, escaneie e navegue.
             </p>
-            
+
             <div className="solution-features">
               {features.map((feature, index) => (
                 <div key={index} className="feature-item">
@@ -31,24 +31,21 @@ function SolutionSection({ onVoteClick }) {
                 </div>
               ))}
             </div>
-            
+
             <button className="cta-primary" onClick={onVoteClick}>
               Vote em Nossa Solução
               <i className="fas fa-arrow-right"></i>
             </button>
           </div>
-          
+
 
           <div className="solution-visual">
-            <div className="video-container">
-              <video
-                src="public/videos/videoar.mp4" 
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="demo-video"
-              ></video>
+            <div className="gif-container">
+              <img
+                src="public/videos/videoar.gif"
+                alt="Demonstração AR"
+                className="demo-gif"
+              />
             </div>
           </div>
         </div>
