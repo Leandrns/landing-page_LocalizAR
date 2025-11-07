@@ -38,16 +38,17 @@ function SolutionSection({ onVoteClick }) {
             </button>
           </div>
           
+          {/* Vídeo substituindo a animação */}
           <div className="solution-visual">
-            <div className="ar-demo">
-              <div className="demo-screen">
-                <div className="demo-markers">
-                  <div className="demo-marker marker-1 float"></div>
-                  <div className="demo-marker marker-2 float"></div>
-                  <div className="demo-marker marker-3 float"></div>
-                </div>
-                <div className="demo-scan-line"></div>
-              </div>
+            <div className="video-container">
+              <video
+                src="src/assets/videoar.mp4" // coloque o caminho correto
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="demo-video"
+              ></video>
             </div>
           </div>
         </div>
