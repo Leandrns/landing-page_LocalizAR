@@ -14,11 +14,11 @@ function Footer() {
           <a href="#diferenciais">Diferenciais</a>
         </div>
         
-        <div className="footer-social">
+        {/* <div className="footer-social">
           <i className="fab fa-github"></i>
           <i className="fab fa-linkedin"></i>
           <i className="fab fa-twitter"></i>
-        </div>
+        </div> */}
       </div>
       
       <div className="footer-bottom">
