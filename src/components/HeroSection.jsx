@@ -16,7 +16,7 @@ function HeroSection({ onVoteClick }) {
         <h1 className="hero-title">
           <span className="gradient-text">LocalizAR</span>
           <br />
-          Navegue eventos com
+          Navegue em eventos com
           <br />
           <span className="highlight-text">Realidade Aumentada</span>
         </h1>
