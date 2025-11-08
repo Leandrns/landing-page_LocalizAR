@@ -33,7 +33,7 @@ function LocalizarLanding() {
   }, []);
 
   const scrollToVote = () => {
-    window.open('https://seu-link-de-votacao.com', '_blank');
+    window.open('https://www2.fiap.com.br/next-votacao/index.php?id=12', '_blank');
   };
 
   return (
